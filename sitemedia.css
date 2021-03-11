@@ -1,0 +1,559 @@
+@media screen and (max-width: 800px){
+	.mountback{
+width: 750px;								/* ширина */
+height: 813px;	
+background-image: url(elements/mountback.png); 
+display: flex;
+justify-content: center; /* Флексы выравниваются по центру строки.*/
+align-items: center; }}
+
+@media screen and (max-width: 800px){
+	.flexmount{
+	
+width: 760px;								/* ширина */
+
+flex-wrap: nowrap;
+ align-content: space-between;
+	}
+}
+
+@media  screen and (max-width: 800px){
+	.heading{
+
+width: 760px;								
+height: 160px;	
+font-family: Exo-Thin;
+word-break: normal;
+font-size: 50px;
+text-align: center;
+	}
+}
+
+
+@media  screen and (max-width: 800px){
+	.newdesign{
+
+width: 760px;								/* ширина */
+height: 726px;
+	}
+}
+
+
+@media  screen and (max-width: 800px){
+	.grayback{
+display: none;
+}
+}
+
+@media  screen and (max-width: 800px){
+.graytxt{
+	
+	 align-self: flex-start;
+width: 580px;
+height: 300px;
+margin-top: 50px;
+
+}}
+
+
+@media  screen and (max-width: 800px){
+
+	#grtxt{
+
+	 
+	 font-family: Exo-Medium;
+	 font-size: 20px;	
+	 color: gray;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.whiteback{
+
+width: 760px;								/* ширина */
+height: 726px;	
+display: flex;
+  align-items: center;
+  justify-content: center;
+   z-index: 5;
+}
+
+}
+
+@media  screen and (max-width: 800px){
+
+#penholder{
+	
+display: none;
+}
+}
+
+@media  screen and (max-width: 800px){
+
+#earphones{
+	
+display: none;
+}
+}
+
+@media  screen and (max-width: 800px){
+
+.coffe{
+	
+display: none;
+}
+}
+
+
+@media  screen and (max-width: 800px){
+
+.newfeatures{
+width: 760px;								/* ширина */
+height: 1000px;		
+			
+background-image: url(elements/lightgrauback.png); 
+display: flex;
+flex-direction: column;
+}
+}
+
+@media  screen and (max-width: 800px){
+
+.headerredblack{
+
+width: 760px;								/* ширина */
+height: 280px;
+display: flex;
+ justify-content: space-evenly;
+
+}
+
+}
+
+@media  screen and (max-width: 800px){
+
+.blocks{
+		width: 760px;								/* ширина */
+height: 700px;
+
+	display: flex;
+	flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+}
+
+@media  screen and (max-width: 800px){
+
+.newdesignmac{
+	background-image: url(elements/mediamac.png);
+		outline: 5px solid gray;
+	background-size: 760px 550px;
+width: 760px;								/* ширина */
+height: 550px;
+display: flex;
+justify-content: center;
+align-items: center;
+  flex-direction: column;
+ 
+
+}}
+
+
+@media  screen and (max-width: 800px){
+
+.rightreddiv{
+display: none;
+}
+}
+
+@media  screen and (max-width: 800px){
+.imagemac{
+	
+display: none;
+}
+}
+@media  screen and (max-width: 800px){
+ .graytxtmac{
+ 	
+ 		
+font-family: Exo-Medium;
+font-size: 18px;
+color: darkslategrey;
+}}
+
+@media  screen and (max-width: 800px){
+.leftwhitediv{
+	
+	width: 505px;								/* ширина */
+height: 208px;
+display: flex;
+  align-items: center;
+
+
+}
+}
+
+@media  screen and (max-width: 800px){
+.maindivleft{
+width: 505px;								/* ширина */
+height: 280px;
+align-self: center;
+}
+}
+
+@media  screen and (max-width: 800px){
+.clients{
+		width: 760px;								/* ширина */
+height: 1600px;	
+background-image: url(elements/blackbackgroung.png) ; 
+background-size: 1440px 648px;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+
+@media  screen and (max-width: 800px){
+	.clientsmaindiv{
+	
+			width: 760px;								/* ширина */
+height: 1600px;
+display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+}
+@media  screen and (max-width: 800px){
+.cardsdiv{
+	
+	width: 600px;	
+		height: 1200px;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}}
+@media  screen and (max-width: 800px){
+	.firstcard{
+		
+				width: 545px;								/* ширина */
+height: 400px;
+
+}	}
+@media  screen and (max-width: 800px){
+	.secondcard{
+	
+				width: 545px;								/* ширина */
+height: 400px;
+	
+}
+}
+
+@media  screen and (max-width: 800px){
+	.thirdcard{
+		
+				width: 545px;								/* ширина */
+height: 400px;
+
+}
+}
+@media  screen and (max-width: 800px){
+	.clientcardname{
+	font-family: Exo-Medium;
+font-size: 28px;
+color: white;
+}
+
+}
+@media  screen and (max-width: 800px){
+.clientcardsub{
+		font-family: Exo-Medium;
+font-size: 20px;
+color:  #ff9494;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.clientcardtxt{
+		font-family: Exo-Regular-Italic;
+font-size: 25px;
+color: #9f9fa2;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.labelsdiv{
+	
+			width: 600px;								/* ширина */
+height: 200px;
+display: flex;
+flex-wrap: wrap;
+margin-left: 60px;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.logo{
+
+width: 200px;								/* ширина */
+height: 40px;
+}
+}
+@media  screen and (max-width: 800px){
+	.whitepage{
+				width: 760px;								/* ширина */
+height: 400px;
+background-color: #f6f5f3;
+display: flex;
+  justify-content: center;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.maingreypage{
+	
+width: 760px;								/* ширина */
+height: 300px;
+display: flex;
+align-self: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+}
+
+@media  screen and (max-width: 800px){
+	.page{
+	
+		display: none;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.greypagetxt{
+		
+width: 760px;								/* ширина */
+height: 300px;
+display: flex;
+	flex-direction: column;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.greypageredtxt{
+font-family: Exo-Medium;
+	 color: #ff9494;
+	 font-size: 19px;
+	  text-align: center;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.greypagetext{
+	height: 200px;
+
+			font-family: Exo-Medium;
+font-size: 25px;
+color: #858584;
+display: flex;
+justify-content: center;
+ text-align: center;
+ align-items: center;
+
+}
+}
+
+@media  screen and (max-width: 800px){
+	.registry{
+	background-image: url(elements/purplebackground.png);
+	background-size: 1400px 467px;
+	width: 760px;								/* ширина */
+height: 800px;
+display: flex;
+  justify-content: center;
+	
+}
+}
+
+@media  screen and (max-width: 800px){
+	.mainpurplediv{
+
+	
+		width: 760px;								/* ширина */
+height: 800px;
+display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+}
+
+@media  screen and (max-width: 800px){
+
+	.purpletxt{
+		
+		width: 675px;								/* ширина */
+height: 70px;
+	
+	 font-family: Exo-Medium;
+	 font-size: 40px;
+	 color: white;
+	  text-align: center;
+	  align-self: center;
+}
+
+}
+
+@media  screen and (max-width: 800px){
+	.registrystring{
+		
+			width: 760px;								/* ширина */
+height: 500px;	
+display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+  align-items: center;
+}
+
+}
+
+@media  screen and (max-width: 800px){
+	.greysub{
+		
+		width: 760px;								/* ширина */
+height: 74px;	
+font-family: Exo-Regular;
+	font-size: 16pt;
+	color: #b8b9c3;
+	display: flex;
+	align-items: flex-end;
+	text-align: center;
+	justify-content: center;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.footer{
+	background-color: white;
+background-image: url(elements/redsq2.png);
+background-repeat: no-repeat; 
+background-size: 760px 332px;
+width: 760px;								/* ширина */
+height: 700px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.footermaindiv{
+
+	width: 760px;								/* ширина */
+height: 700px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+flex-flow: column wrap;
+
+
+}
+}
+@media  screen and (max-width: 800px){
+	.column1{
+
+	width: 270px;								/* ширина */
+height: 250px;
+display: flex;
+justify-content: center;
+  flex-direction: column;
+
+}
+}
+
+@media  screen and (max-width: 800px){
+	.column2{
+		width: 270px;								/* ширина */
+height: 250px;
+	
+	display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.column3{
+		width: 270px;								/* ширина */
+height: 250px;
+	
+	display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+}
+
+@media  screen and (max-width: 800px){
+	.column4{
+		width: 420px;								/* ширина */
+height: 250px;
+
+	display: flex;
+
+  flex-direction: column;
+ justify-content: center;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.column1txt{
+		 font-family: Exo-Medium;
+	 font-size: 18px;
+color: #8a8a8a;
+ text-align: left;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.column2txt{
+		 font-family: Exo-Medium;
+	 font-size: 18px;
+color: #8a8a8a;
+ text-align: left;
+}
+}
+@media  screen and (max-width: 800px){
+	.column3txt{
+		 font-family: Exo-Medium;
+	 font-size: 18px;
+color: #8a8a8a;
+ text-align: left;
+}
+
+}
+@media  screen and (max-width: 800px){
+	.column4txt{
+		 font-family: Exo-Medium;
+	 font-size: 18px;
+color: #8a8a8a;
+ text-align: left;
+}
+}
+@media  screen and (max-width: 800px){
+	.headercolumn4{
+	 font-family: Exo-Medium;
+	 font-size: 30px;
+	  text-align: left;
+}
+}
+@media  screen and (max-width: 800px){}
+@media  screen and (max-width: 800px){}
+@media  screen and (max-width: 800px){}
+@media  screen and (max-width: 800px){}

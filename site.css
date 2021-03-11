@@ -1,0 +1,883 @@
+@font-face{
+	font-family: 'Exo-Thin';
+	src: url('./elements/Exo-Thin.otf');}
+
+@font-face{
+font-family: 'Exo-Regular';
+src: url('./elements/Exo-Regular.otf');}
+
+@font-face{
+font-family: 'Exo-Medium';
+src: url('./elements/Exo-Medium.otf');}
+
+@font-face{
+font-family: 'Exo-Regular-Italic';
+src: url('./elements/Exo-Regular-Italic.otf');}
+
+
+
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+.mountback{ 				/* фон гор */
+width: 1440px;								/* ширина */
+height: 813px;		
+		flex-wrap: wrap;
+
+background-image: url(elements/mountback.png); 
+display: flex;
+justify-content: center; /* Флексы выравниваются по центру строки.*/
+align-items: center;      /* Флексы выравниваются по линии поперечной оси.*/
+
+}
+
+
+
+.flexmount{
+	
+	width: 760px;								/* ширина */
+height: 390px;	
+
+flex-wrap: wrap;
+  align-content: flex-start;
+
+	
+}
+.heading{
+
+	
+width: 760px;								
+height: 160px;	
+font-family: Exo-Thin;
+word-break: normal;
+font-size: 60px;
+text-align: center;
+
+}
+
+
+#play2{
+	align-self: center;
+width: 59px;							
+height: 59px;	
+
+
+}
+ 
+.play{
+		
+
+	display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+justify-content: center;
+	/* outline: 2px solid #022; */
+width: 760px;								
+height: 98px;	
+
+}
+
+.trynow{
+	
+justify-content: center;
+width: 760px;								
+height: 50px;
+display: flex;
+
+}
+
+	#redbutt{
+		border: 0;
+	width: 190px;								
+height: 50px;
+font-family: Exo-Regular;
+	font-size: 16pt;
+	color: white;
+	background-image: url(elements/redbutton.png);
+	}
+	
+.noneed{
+width: 760px;								
+height: 25px;	
+text-align: center;
+	/*outline: 5px solid green;*/
+	font-family: Exo-Regular;
+	font-size: 14pt;
+	color: gray;
+}
+
+.newdesign{
+
+width: 1440px;								/* ширина */
+height: 726px;	
+display: flex;
+ align-items: stretch;
+
+	
+}
+
+.whiteback{
+
+
+width: 868px;								/* ширина */
+height: 726px;	
+display: flex;
+  align-items: center;
+  justify-content: center;
+   z-index: 5;
+}
+
+.newdtxt{
+	display: block;
+width: 585px;								/* ширина */
+height: 430px;	
+
+
+}
+
+#ndtxt{
+
+	 
+	 font-family: Exo-Medium;
+	 color: #ff9494;
+	 
+}
+
+.blacktxt{
+	 align-self: flex-start;
+width: 500px;
+
+
+}
+#bltxt{
+
+	 
+	 font-family: Exo-Medium;
+	 font-size: 40px;
+
+}
+.graytxt{
+	 align-self: flex-start;
+width: 580px;
+margin-top: 50px;
+}
+
+#grtxt{
+
+	 
+	 font-family: Exo-Medium;
+	 font-size: 16;	
+	 color: gray;
+}
+
+.blacktxt span1{
+	 color: #ff9494;
+} 
+.grayback{
+width: 568px;								/* ширина */
+height: 726px;	
+background-color: whitesmoke;
+background-image: url(elements/grayredback.png);
+ z-index: 5;
+}
+
+.newfeatures{
+width: 1440px;								/* ширина */
+height: 675px;		
+			
+background-image: url(elements/lightgrauback.png); 
+display: flex;
+flex-direction: column;
+}
+.headerredblack{
+
+		width: 1440px;								/* ширина */
+height: 280px;
+display: flex;
+  justify-content: space-evenly;
+  	 
+}
+.rbtext span2{
+	font-family: Exo-Medium;
+	 color: #ff9494;
+	 font-size: 16px;
+	 
+}
+.rbtext{
+
+	width: 540px;								/* ширина */
+height: 115px;
+font-family: Exo-Medium;
+font-size: 40px;
+text-align: center;
+align-self: center;
+
+
+}
+
+.icons1{
+
+	width: 250px;								/* ширина */
+height: 300px;
+}
+#penholder{
+	
+width: 291px;								/* ширина */
+height: 329px;	
+
+}
+#earphones{
+		
+	width: 162px;								/* ширина */
+height: 215px;
+}
+
+.blocks{
+		width: 1440px;								/* ширина */
+height: 290px;
+
+	display: flex;
+  justify-content: space-evenly;
+  
+}
+.pictureblock{
+
+width: 370px;								/* ширина */
+height: 226px;
+display: flex;
+  flex-wrap: wrap; 
+justify-content: center;
+align-items: flex-start;
+
+
+}
+.cards{
+
+	width: 67px;								/* ширина */
+height: 67px;
+	align-self: flex-start;
+	
+}
+
+.cardstxt{
+
+	width: 360px;								/* ширина */
+height: 125px;
+font-family: Exo-Medium;
+font-size: 16px;
+text-align: center;
+color: #8e8e8d;
+align-self: flex-start;
+
+}
+
+.cardstxt spancards{
+font-family: Exo-Medium;
+font-size: 22px;
+color: black;
+}
+
+.planeblock{
+
+width: 370px;								/* ширина */
+height: 226px;
+display: flex;
+  flex-wrap: wrap; 
+justify-content: center;
+align-items: flex-start;
+}
+.plane{
+
+	width: 67px;								/* ширина */
+height: 67px;
+	align-self: flex-start;
+}
+.planetxt{
+
+	width: 360px;								/* ширина */
+height: 125px;
+font-family: Exo-Medium;
+font-size: 16px;
+color: #8e8e8d;
+text-align: center;
+align-self: flex-start;
+}
+
+.planetxt spancards{
+font-family: Exo-Medium;
+font-size: 22px;
+color: black;
+}
+
+.lampblock{
+
+width: 370px;								/* ширина */
+height: 226px;
+display: flex;
+  flex-wrap: wrap; 
+justify-content: center;
+align-items: flex-start;
+}
+
+.lamp{
+
+	width: 67px;								/* ширина */
+height: 67px;
+	align-self: flex-start;
+}
+
+.lamptxt{
+
+	width: 360px;								/* ширина */
+height: 125px;
+font-family: Exo-Medium;
+font-size: 16px;
+text-align: center;
+color: #8e8e8d;
+align-self: flex-start;
+}
+
+.lamptxt spancards{
+font-family: Exo-Medium;
+font-size: 22px;
+color: black;
+}
+
+.coffe{
+
+	width: 1440px;								/* ширина */
+height: 105px;
+display: flex;
+  justify-content: flex-end;
+
+
+}
+.coffepic{
+
+width: 235px;								/* ширина */
+height: 200px;
+
+}
+
+.newdesignmac{
+
+		width: 1440px;								/* ширина */
+height: 550px;
+display: flex;
+  flex-direction: row;
+  background-color: white;
+
+}
+
+
+.rightreddiv{
+
+	background-image: url(elements/redsquare.png);
+	background-repeat: no-repeat; /* чтобы фоновое изображение не повторялось*/
+	background-size: 622px 1553px;
+width: 720px;								/* ширина */
+height: 550px;
+display: flex;
+justify-content: center;
+}
+.imagemac{
+	
+	width: 630px;								/* ширина */
+height: 367px;
+align-self: center;
+}
+.leftwhitediv{
+
+	width: 720px;								/* ширина */
+height: 550px;
+display: flex;
+  align-items: center;
+
+}
+
+.maindivleft{
+		
+	width: 505px;								/* ширина */
+height: 280px;
+
+ 
+
+}
+
+
+
+#ndtxt2{
+	
+	 
+	 font-family: Exo-Medium;
+	 color: #ff9494;
+	 
+}
+
+.headermac{
+	
+	width: 505px;								/* ширина */
+height: 130px;
+font-family: Exo-Medium;
+font-size: 40px;
+}
+
+
+.headermac span4{
+	 color: #ff9494;
+	}
+
+
+ .graytxtmac{
+ 	
+ 		
+font-family: Exo-Medium;
+font-size: 16px;
+color: #8e8e8d;
+
+ }
+
+.clients{
+		width: 1440px;								/* ширина */
+height: 648px;
+				
+background-image: url(elements/blackbackgroung.png) ; 
+background-size: 1440px 648px;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientsmaindiv{
+
+			width: 1140px;								/* ширина */
+height: 481px;
+display: flex;
+justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.cardsdiv{
+
+	width: 1140px;	
+		
+	display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+
+
+}
+
+
+.clientcardname{
+	font-family: Exo-Medium;
+font-size: 22px;
+color: white;
+}
+
+.clientcardsub{
+		font-family: Exo-Medium;
+font-size: 16px;
+color:  #ff9494;
+}
+
+.clientcardtxt{
+		font-family: Exo-Regular-Italic;
+font-size: 16px;
+color: #9f9fa2;
+}
+
+
+
+
+.firstcard{
+				width: 345px;								/* ширина */
+height: 300px;
+
+}	
+
+.secondcard{
+				width: 345px;								/* ширина */
+height: 300px;
+	
+}
+
+
+.thirdcard{
+				width: 345px;								/* ширина */
+height: 300px;
+
+}
+
+.labelsdiv{
+	
+			width: 1140px;								/* ширина */
+height: 181px;
+align-items: center;
+display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.logo{
+
+	
+width: 50px;								/* ширина */
+height: 50px;
+}
+
+.whitepage{
+				width: 1440px;								/* ширина */
+height: 755px;
+background-color: #f6f5f3;
+display: flex;
+  justify-content: center;
+}
+
+.maingreypage{
+	
+					width: 800px;								/* ширина */
+height: 665px;
+display: flex;
+align-self: flex-end;
+flex-direction: column;
+
+}
+
+.page{
+	
+		align-self: flex-end;
+}
+
+.greypagetxt{
+width: 800px;								/* ширина */
+height: 200px;
+display: flex;
+	flex-direction: column;
+}
+
+
+.greypageimg{
+width: 800px;								/* ширина */
+height: 465px;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.greypageredtxt{
+font-family: Exo-Medium;
+	 color: #ff9494;
+	 font-size: 16px;
+	  text-align: center;
+}
+
+.greypageheader{
+		font-family: Exo-Medium;
+font-size: 40px;
+ text-align: center;
+
+}
+.greypagetext{
+	height: 200px;
+
+			font-family: Exo-Medium;
+font-size: 16px;
+color: #858584;
+display: flex;
+justify-content: center;
+ text-align: center;
+ align-items: center;
+
+}
+
+
+.registry{
+	background-image: url(elements/purplebackground.png);
+	background-size: 1440px 467px;
+	width: 1440px;								/* ширина */
+height: 467px;
+display: flex;
+  justify-content: center;
+	
+}
+
+.mainpurplediv{
+
+	
+		width: 1200px;								/* ширина */
+height: 467px;
+display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+
+.purpletxt{
+		width: 675px;								/* ширина */
+height: 70px;
+	
+	 font-family: Exo-Medium;
+	 font-size: 40px;
+	 color: white;
+	  text-align: center;
+	  align-self: center;
+}
+
+.registrystring{
+		
+			width: 1200px;								/* ширина */
+height: 180px;	
+display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  align-items: flex-end;
+}
+
+.greysub{
+		/*outline: 5px solid pink;*/
+		width: 1200px;								/* ширина */
+height: 74px;	
+font-family: Exo-Regular;
+	font-size: 16pt;
+	color: #b8b9c3;
+	display: flex;
+	align-items: flex-end;
+	text-align: center;
+	justify-content: center;
+}
+
+.fullname{
+	border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.502;
+  width: 261px;
+  height: 47px;
+  z-index: 134;
+font-family: Exo-Regular;
+	font-size: 16pt;
+
+}
+
+.email{
+border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.502;
+  width: 261px;
+  height: 47px;
+  z-index: 134;
+font-family: Exo-Regular;
+	font-size: 16pt;
+}
+
+.password{
+border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.502;
+  width: 261px;
+  height: 47px;
+  z-index: 134;
+font-family: Exo-Regular;
+	font-size: 16pt;
+}
+
+.submit{
+	  border-width: 1px;
+  border-color: rgb(255, 109, 109);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgb(255, 109, 109);
+  box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+  width: 256px;
+  height: 48px;
+font-family: Exo-Regular;
+	font-size: 16pt;
+	color: white;
+	background-image: url(elements/redbutton2.png);
+	}
+
+.fullnamediv{
+		
+	  width: 280px;
+  height: 50px;
+}
+
+.emaildiv{
+		
+	  width: 280px;
+  height: 50px;
+}
+
+.passworddiv{
+		
+	  width: 280px;
+  height: 50px;
+}
+
+.submittrydiv{
+		
+	  width: 280px;
+  height: 50px;
+}
+
+.footer{
+	background-color: white;
+background-image: url(elements/redsq2.png);
+background-size: 1440px 332px;
+width: 1440px;								/* ширина */
+height: 331px;
+display: flex;
+  justify-content: flex-start;
+}
+
+.footermaindiv{
+	
+	width: 1120px;								/* ширина */
+height: 331px;
+display: flex;
+  justify-content: flex-end;
+
+
+}
+
+.column1{
+
+	width: 260px;								/* ширина */
+height: 331px;
+display: flex;
+justify-content: center;
+  flex-direction: column;
+
+}
+
+.column2{
+		width: 180px;								/* ширина */
+height: 331px;
+	
+	display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+
+.column3{
+		width: 180px;								/* ширина */
+height: 331px;
+
+	display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+
+.column4{
+		width: 320px;								/* ширина */
+height: 331px;
+
+	display: flex;
+
+  flex-direction: column;
+ justify-content: center;
+}
+
+.headercolumn1{
+	 font-family: Exo-Medium;
+	 font-size: 22px;
+	  text-align: left;
+}
+
+.column1txt{
+		 font-family: Exo-Medium;
+	 font-size: 14px;
+color: #8a8a8a;
+ text-align: left;
+}
+
+.headercolumn2{
+	 font-family: Exo-Medium;
+	 font-size: 22px;
+	  text-align: left;
+}
+
+.column2txt{
+		 font-family: Exo-Medium;
+	 font-size: 14px;
+color: #8a8a8a;
+ text-align: left;
+}
+
+.headercolumn3{
+	 font-family: Exo-Medium;
+	 font-size: 22px;
+	  text-align: left;
+}
+
+.column3txt{
+		 font-family: Exo-Medium;
+	 font-size: 14px;
+color: #8a8a8a;
+ text-align: left;
+}
+
+.headercolumn4{
+	 font-family: Exo-Medium;
+	 font-size: 22px;
+	  text-align: left;
+}
+
+.column4txt{
+		 font-family: Exo-Medium;
+	 font-size: 14px;
+color: #8a8a8a;
+ text-align: left;
+}
+
+.sicons{
+	
+			width: 153px;								/* ширина */
+height: 21px;
+margin-top: 10px;
+margin-left: 25px;
+}
+
+.email2{
+ border-width: 1px;
+  border-color: rgb(78, 78, 94);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgba(141, 141, 141, 0.2);
+  opacity: 0.4;
+
+
+  width: 361px;
+  height: 57px;
+ 
+}
+
+
+
+
+
